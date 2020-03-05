@@ -1,0 +1,115 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/column/column",
+			"style": {
+				"navigationBarTitleText": "专栏",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "用户"
+			}
+		}, {
+			"path": "pages/note/note",
+			"style": {
+				"navigationBarTitleText": "随笔",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/user-forget/user-forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		}, {
+			"path": "pages/user-password/user-password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/user-username/user-username",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		}, {
+			"path": "pages/user-imgurl/user-imgurl",
+			"style": {
+				"navigationBarTitleText": "修改头像"
+			}
+		}, {
+			"path": "pages/note-compile/note-compile",
+			"style": {
+				"navigationBarTitleText": "随笔"
+			}
+		}, {
+			"path": "pages/note-detail/note-detail",
+			"style": {
+				"navigationBarTitleText": "随笔"
+			}
+		}, {
+			"path": "pages/article-list/article-list",
+			"style": {
+				"navigationBarTitleText": "文章列表"
+			}
+		}, {
+			"path": "pages/column-add/column-add",
+			"style": {
+				"navigationBarTitleText": "新增专栏"
+			}
+		}, {
+			"path": "pages/article-compile/article-compile",
+			"style": {
+				"navigationBarTitleText": "文章"
+			}
+		}, {
+			"path": "pages/article-detail/article-detail",
+			"style": {
+				"navigationBarTitleText": "文章"
+			}
+		}, {
+			"path": "pages/user-all/user-all",
+			"style": {
+				"navigationBarTitleText": "所有用户"
+			}
+		}, {
+			"path": "pages/user-note/user-note",
+			"style": {
+				"navigationBarTitleText": "用户随笔",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/user-ndetail/user-ndetail",
+			"style": {
+				"navigationBarTitleText": "随笔详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "竹纸",
+		"navigationBarBackgroundColor": "#dbdbdb"
+	},
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#2c2c2c",
+		"backgroundColor": "#e6e6e6",
+		"borderStyle": "black",
+		"list": [{
+			"pagePath": "pages/column/column",
+			"text": "专栏",
+			"iconPath": "./static/tabbar/article.png",
+			"selectedIconPath": "./static/tabbar/articled.png"
+		}, {
+			"pagePath": "pages/note/note",
+			"text": "随笔",
+			"iconPath": "./static/tabbar/note.png",
+			"selectedIconPath": "./static/tabbar/noted.png"
+		}, {
+			"pagePath": "pages/user/user",
+			"text": "用户",
+			"iconPath": "./static/tabbar/user.png",
+			"selectedIconPath": "./static/tabbar/usered.png"
+		}]
+	}
+}

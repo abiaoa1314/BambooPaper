@@ -1,0 +1,16 @@
+/* 本项目公共样式 */
+.bg-main{
+	background-color: #ffffff!important;
+}
+.bg-main-disabled{
+	background-color: #cdcdcd!important;
+}
+.text-main{
+	color: #2c2c2c;
+}
+.page{
+	width: 100%;
+	height: 100%;
+	background-color: #dbdbdb;
+	position: absolute;
+}
