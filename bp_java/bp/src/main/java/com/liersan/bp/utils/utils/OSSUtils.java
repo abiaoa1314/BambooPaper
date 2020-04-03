@@ -16,10 +16,10 @@ import java.io.InputStream;
  */
 public class OSSUtils {
     //阿里云所需要的配置信息
-    private static String endpoint = "oss-cn-beijing.aliyuncs.com";
-    private static String accessKeyId = "LTAI4Fq9JHQUzKT376hCBGuf";
-    private static String accessKeySecret = "U1G60mn4Sse8ubIoEz4YEhofoRwheZ";
-    private static String bucketName = "bp-oss";
+    private static String endpoint = "";
+    private static String accessKeyId = "";
+    private static String accessKeySecret = "";
+    private static String bucketName = "";
 
     private static OSSClient ossClientStatic;
     //调用本工具类 就会初始化oss服务
